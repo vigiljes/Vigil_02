@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>LASTNAME - XA310 Assignment 02</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+	<body>
+
+		<h1>XA 310 Assignment 02</h1>
+
+		<p>This is the HTML document for Assignment 02</p>
+
+		<p>Don't worry about any of the HTML code, just put your JavaScript code into
+		the &lt;script&gt; block below</p>
+
+		
+		<h2>View your Code</h2>
+
+		<ul>
+			<li>In Firefox, select Tools -&lt; Browser Tools -&lt; Web Developer Tools</li>
+			<li>In Chrome, select View -&lt; Developer -&lt; Developer Tools </li>
+		</ul>
+			
+		<li>After the split screen tools window opens, select the "Console" tab from the top </li>
+		
+		
+
+
+<script>
+
+
+/*
+	First, this is a <script> block inside of an html document
+
+	Any code you write here be run by the browser's JavaScript interpreter every 
+	time the page is loaded, and will available to you in the browser's console. 
+
+*/
+
+
+
+/*
+	Second, any text between the slash/star above and star/slash 
+	below, is a _comment_ - an area of this document that will
+	be ignored by the computer
+
+	Programmers use comments to add notes or explanations
+	about what the code is doing so others (or you in six months)
+	will be better able to understand what is happening 
+
+	It is also useful for hiding code for a while if something isn't
+	working - you can make changes or add back one step at a time 
+	to see what is causing your code to break
+
+ */
+
+// you can also have single line comments using two slashes
+
+
+
+/*
+
+	Third, to get to the console:
+
+		In Firefox, select Tools -> Browser Tools -> Web Developer Tools
+		In Chrome, select View -> Developer -> Developer Tools 
+
+	After the split screen tools window opens, select the "Console" tab from the top 
+
+ */
+
+
+
+
+/*
+	If you type "console.log()" with something inside the parentheses - a string
+	of text, a variable name, a number, some math equation, etc - the resulting
+	answer or value will be printed out
+ */
+console.log("This is Assignment 2 for XA310")
+
+
+
+/*
+	For this assignment, you will need to create an object that stores
+	some information about a type of "thing" 
+
+	For example, something that describes a dog. The name you give 
+	your object doesn't matter much, but it should be in camelCase if 
+	it is more than one word
+
+*/
+
+const myDogObject = {
+	"name" : "Nezzy",
+	"age" : 0,
+	"color" : "Black"
+}
+
+
+/* 
+	You can now log it to the console, by using the
+	variable name with no quotes
+ */
+//console.log(myDogObject)
+
+
+
+/* 
+
+	Part 1:
+
+	Create TWO objects with at least FIVE properties below.
+
+	These will represent two instances of your "thing", meaning they have the
+	same properties but different values for each
+*/
+
+const carObject = [
+{
+	"make" : "Volvo",
+	"model" : "XC60 T6 4D",
+	"type" : "SUV",
+	"color" : "red",
+	"horsepower" : 281
+},
+
+{
+	"make" : "Honda",
+	"model" : "CR-V",
+	"type" : "SUV",
+	"color" : "white",
+	"horsepower" : 185
+}
+]
+
+/*
+const gameSystem = {
+	"brand" : "Microsoft",
+	"system" : "Xbox",
+	"gbstorage" : 128,
+	"mbram" : 64,
+	"release year" : 2001
+}
+*/
+
+
+
+/* 
+	Part 2:
+
+	Use console.log() to print both of your objects to the console in their
+	entirety
+
+*/
+
+console.log(carObject[0])
+console.log(carObject[1])
+
+
+
+/*
+	Part 3:
+
+	Use console.log() to print to print the one of the same properties from each
+	object - for example, if you have a "size", print the size from object 1,
+	then the size from object 2.
+
+	Then do it a second time with a different property.
+
+
+*/
+
+
+console.log(carObject[0].make)
+console.log(carObject[1].make)
+
+
+
+
+
+
+
+
+
+			</script>
+
+
+	</body>
+</html>
